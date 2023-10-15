@@ -65,7 +65,14 @@ body{
     padding-right: 10px;
    
 }
-
+form h2{
+    text-align: center;
+    font-size: 2rem;
+    color: aqua;
+    font-weight:bolder;
+    font-family: 'Courier New', Courier, monospace;
+     margin-bottom: 40px;
+}
 
 .input-icons i {
     position: absolute;
@@ -113,7 +120,7 @@ input{
 
 .submit{
     height: 2.5rem;
-   
+    
     background: var(--main-color);
     border-radius: 2px;
     box-shadow: 0 0 1rem var(--main-color);
@@ -124,13 +131,18 @@ input{
     
 
 }
+
 .submit:hover{
     box-shadow: none;
     transform: scale(1);
     cursor: pointer;
 
 }
-
+.submit a{
+    text-decoration: none;
+    color: black;
+}
+ /* bottom links */
 .signup{
     margin-top: 20px;
     color: white;
